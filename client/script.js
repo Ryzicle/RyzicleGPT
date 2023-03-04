@@ -86,7 +86,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    const response = await fetch('https://ryziclegpt.onrender.com/', {
+    const response = await fetch('https://ryzicle-gpt-v5w3.vercel.app/', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
